@@ -12,6 +12,12 @@
   padding-inline: 10vw;
 }
 
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo {
   color: var(--white);
 }
