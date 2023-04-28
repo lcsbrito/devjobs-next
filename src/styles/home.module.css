@@ -1,0 +1,18 @@
+.checkboxcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.jobcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+  row-gap: 50px;
+  margin-bottom: 15vh;
+}
+
+.loadmore {
+  grid-column: 2;
+  margin: 0 auto;
+}

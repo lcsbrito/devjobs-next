@@ -1,0 +1,39 @@
+.jobcontent {
+  background-color: white;
+  width: 100%;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.flextitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.locationh4 {
+  margin-top: 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-bold);
+  color: var(--purple);
+}
+
+.articleitems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
